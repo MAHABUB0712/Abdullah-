@@ -4,9 +4,9 @@
 	"description": "A simple Facebook Messenger Bot made by Imran.",
 	"main": "Imran.js",
 	"scripts": {
-		"start": "node Imran.js",
-		"login": "node login",
-		"test": "node --trace-warnings --use_strict --async-stack-traces mirai"
+              "start": "node --trace-warnings --use_strict --async-stack-traces imran.js",
+              "login": "node login",
+	       "test": "node --trace-warnings --use_strict --async-stack-traces mirai"
 	},
 	"repository": {
 		"type": "git",
