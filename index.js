@@ -46,7 +46,7 @@ logger("Opened server site...", "[ Starting ]");
 function startBot(message) {
     (message) ? logger(message, "[ Starting ]") : "";
 
-    const child = spawn("node", ["--trace-warnings", "--async-stack-traces", "Imran.js"], {
+    const child = spawn("node", ["--trace-warnings", "--async-stack-traces", "imran.js"], {
         cwd: __dirname,
         stdio: "inherit",
         shell: true
